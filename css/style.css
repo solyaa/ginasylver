@@ -1,0 +1,270 @@
+/*Theme Name: Gina*/
+
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #979797;
+  background: #373737;
+  font-size: 16px;
+  font-family: 'Ek Mukta';
+}
+
+img {
+  display: block;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #76c38f;
+}
+
+#top, header, #slider, #gallery, #main-content  {
+  overflow: hidden;
+  clear: both;
+}
+
+#top  {
+  background: #101010 url(../img/bg.jpg) top center no-repeat;
+  border-top: 5px solid #76c38f;
+}
+
+/*ezzel kell középre állítani az egészet*/
+.center-box {
+  margin: 0 auto;
+  width: 960px;
+}
+
+header {
+  margin: 40px 0 50px 0;
+}
+
+#logo {
+  float: left;
+}
+
+nav,nav ul {
+  float: right;
+}
+
+/*menü egy sorba rendezése*/
+nav li {
+  float: left;
+}
+
+/*menü formázása*/
+nav li a {
+  display: inline-block;
+  margin-left: 50px;
+  padding: 10px 0 10px 0;
+  color: #fff;
+}
+
+nav li a:hover {
+  color: #76c38f;
+}
+
+#slider-text {
+  float: left;
+  width: 370px;
+}
+
+#slider-images {
+  float: right;
+  width: 590px; /*960-370*/
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 52px;
+  color: #fff;
+  margin: 65px 0 20px 0;
+}
+
+p {
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+}
+
+.button {
+  background: #76c38f;
+  display: inline-block;
+  font-family: 'Poppins';
+  color: #fff;
+  font-size: 18px;
+  padding: 15px;
+  border-radius: 18px;
+  font-weight: 700;
+}
+
+#gallery img {
+  float: left;
+  margin-right: 30px;
+  border: solid 10px #fff;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+#gallery img:last-of-type {
+  margin-right: 0;
+}
+
+#content {
+  padding: 60px 0;
+}
+
+main {
+  float: left;
+  width: 630px;
+  background: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+  min-height: 565px;
+}
+
+main p, aside li{
+  color: #2e2e2e;
+
+}
+
+aside {
+  float: right;
+  width: 300px;
+  background: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+aside li{
+  position: relative;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+  padding-left: 20px;
+}
+
+aside li:before{
+  position: absolute;
+  content: "";
+  background: #76c38f;
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  top: 9px;
+  left: 0;
+  border-radius: 50%;
+}
+
+
+#main-content {
+  padding: 30px 0;
+}
+
+h2 {
+  font-family: 'Poppins';
+  font-size: 30px;
+  color: #2e2e2e;
+  margin: 0 0 15px 0;
+  font-weight: normal;
+}
+
+footer {
+  background: #101010;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+#footer-blog, #footer-insta, #footer-links {
+  float: left;
+  width: 300px;
+}
+
+#footer-blog, #footer-insta {
+  margin-right: 30px;
+}
+
+footer h3{
+  font-family: 'Poppins';
+  color: #fff;
+  font-size: 18 px;
+  margin: 0 0 20px 0;
+  font-weight: normal;
+}
+
+h4{
+  margin: 0 0 10px 0;
+  font-weight: 600;
+}
+
+time{
+  margin: 0 0 15px 0;
+  display: inline-block;
+}
+
+#footer-insta img{
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+#footer-insta img:nth-of-type(3n){
+  margin-right: 0px;
+}
+
+#footer-links li{
+  margin: 0 0 20px 0;
+  font-size: 14px;
+}
+
+#copyright {
+  overflow: hidden;
+  padding: 25px 0 0 0;
+  font-size: 14px;
+  background: #060606;
+}
+
+#copy-text {
+  float: left;
+}
+
+#copy-links li {
+  float: left;
+}
+
+#copy-links ul {
+  float: right;
+}
+
+#copy-links ul li {
+  padding: 0 20px;
+  border-right: solid 1px #979797;
+}
+
+#copy-links ul li:last-of-type {
+  /*padding: 0;*/
+  border-right: none;
+}
+
+#copy-links ul li a{
+  color: #979797;
+  font-size: 14px;
+}
+
+#copy-links li a:hover {
+  color: #76c38f;
+}
